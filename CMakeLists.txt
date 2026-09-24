@@ -9,17 +9,29 @@ endfunction()
 
 project(zombie_class VERSION 0.1 LANGUAGES CXX)
 
+find_package(Qt6 REQUIRED COMPONENTS Core)
+
 _add_executable(zombie_class)
+
+target_link_libraries(zombie_class PRIVATE Qt6::Core)
 
 target_compile_features(zombie_class PRIVATE cxx_std_23)
 
-# C++ Modules support
+# C++ support
 target_sources(zombie_class
     PRIVATE
     zombie.h
-    PRIVATE FILE_SET modules TYPE CXX_MODULES BASE_DIRS ${CMAKE_CURRENT_SOURCE_DIR}
-        FILES
+    equipment.h
+    zombie.cpp
+    zombie.cpp
+    equipment.cpp
+    zombiebase.h
+    zombiebase.cpp
 )
+
+#json文件自动复制到构建输出目录里
+file(COPY zombie.json DESTINATION ${CMAKE_BINARY_DIR})
+file(COPY equipment.json DESTINATION ${CMAKE_BINARY_DIR})
 
 # Deployment settings
 include(GNUInstallDirs)

@@ -1,3 +1,4 @@
+#pragma oncegit
 #include <iostream>
 #include <string>
 
@@ -9,7 +10,7 @@ class Zombie
         Zombie(string n, int h, int a, int mS, int aS) //创建信息
             : name_(n)
             , hp_(h)
-            , atk_(a)
+            , attack_(a)
             , moveSpeed_(mS)
             , atkSpeed_(aS) { };
 
@@ -20,14 +21,14 @@ class Zombie
         };//受伤
 
         virtual void showInfo()//展示信息
-        { cout << "[" << name_ << "] hp:" << hp_ << "attak:" << atk_ << " moveSpeed:" << moveSpeed_ << endl; };
+        { cout << "[" << name_ << "] hp:" << hp_ << "attak:" << attack_ << " moveSpeed:" << moveSpeed_ << endl; };
 
         virtual ~Zombie() { };//虚析构
 
     protected:
         string name_;
         int hp_;
-        int atk_;
+        int attack_;
         int moveSpeed_;
         int atkSpeed_;
 };
@@ -41,7 +42,7 @@ public:
     { };
 
     void attack(Zombie& zombie) override {
-        zombie.takeDamage(atk_);//僵尸攻击
+        zombie.takeDamage(attack_);//僵尸攻击
     }
 
 };
@@ -55,6 +56,6 @@ public:
     { }
 
     void attack(Zombie& zombie) override {
-        zombie.takeDamage(atk_);
+        zombie.takeDamage(attack_);
     }
 };

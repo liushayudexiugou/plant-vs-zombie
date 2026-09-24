@@ -1,0 +1,25 @@
+[
+    {
+        "name_":"普通僵尸",
+        "hp_":100,
+        "atk_":15,
+        "moveSpeed":1.2,
+        "atkSpeed":1,
+    }
+
+    {
+        "name_":"路障僵尸",
+        "hp_":100,
+        "atk_":15,
+        "moveSpeed":1.2,
+        "atkSpeed":1,
+    }
+
+    {
+        "name_":"铁桶僵尸",
+        "hp_":100,
+        "atk_":15,
+        "moveSpeed":1.2,
+        "atkSpeed":1,
+    }
+]

@@ -1,0 +1,45 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "GNU",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"database-info" : null,
+	"dir-cur-bld" : "/run/media/root/c39909ac-ae06-46fe-929b-dc61a216cde81/gw/zombie/zombie_class/build/C_2026_09_24_Debug",
+	"dir-cur-src" : "/run/media/root/c39909ac-ae06-46fe-929b-dc61a216cde81/gw/zombie/zombie_class",
+	"dir-top-bld" : "/run/media/root/c39909ac-ae06-46fe-929b-dc61a216cde81/gw/zombie/zombie_class/build/C_2026_09_24_Debug",
+	"dir-top-src" : "/run/media/root/c39909ac-ae06-46fe-929b-dc61a216cde81/gw/zombie/zombie_class",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : 
+	[
+		"/opt/Qt/6.11.2/gcc_64/include/QtCore",
+		"/opt/Qt/6.11.2/gcc_64/include",
+		"/opt/Qt/6.11.2/gcc_64/mkspecs/linux-g++"
+	],
+	"language" : "CXX",
+	"linked-target-dirs" : 
+	[
+		"/run/media/root/c39909ac-ae06-46fe-929b-dc61a216cde81/gw/zombie/zombie_class/build/C_2026_09_24_Debug/CMakeFiles/@cmake_cxx_std@synth_0.dir"
+	],
+	"module-dir" : "/run/media/root/c39909ac-ae06-46fe-929b-dc61a216cde81/gw/zombie/zombie_class/build/C_2026_09_24_Debug/CMakeFiles/zombie_class.dir",
+	"sources" : 
+	{
+		"CMakeFiles/zombie_class.dir/equipment.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/run/media/root/c39909ac-ae06-46fe-929b-dc61a216cde81/gw/zombie/zombie_class/equipment.cpp"
+		},
+		"CMakeFiles/zombie_class.dir/zombie.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/run/media/root/c39909ac-ae06-46fe-929b-dc61a216cde81/gw/zombie/zombie_class/zombie.cpp"
+		},
+		"CMakeFiles/zombie_class.dir/zombiebase.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/run/media/root/c39909ac-ae06-46fe-929b-dc61a216cde81/gw/zombie/zombie_class/zombiebase.cpp"
+		}
+	}
+}

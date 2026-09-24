@@ -1,0 +1,7 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles/zombie_class.dir/zombie.cpp.o: dyndep
+
+build CMakeFiles/zombie_class.dir/equipment.cpp.o: dyndep
+
+build CMakeFiles/zombie_class.dir/zombiebase.cpp.o: dyndep
+
